@@ -50,7 +50,7 @@ function d7compatible_preprocess_node(&$variables) {
 
   // Restore attributes to strings.
   d7compatible_attributes_convert($variables['attributes']);
-  //d7compatible_attributes_convert($variables['title_attributes']);
+  d7compatible_attributes_convert($variables['title_attributes']);
   d7compatible_attributes_convert($variables['content_attributes']);
 
   // Add more template suggestions based on view mode.
